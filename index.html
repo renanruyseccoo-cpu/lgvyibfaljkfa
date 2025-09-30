@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Renan Ruy | Portfólio</title>
+</head>
+<body>
+<!-- Checkbox oculto para controlar o menu -->
+    <input type="checkbox" id="menu-toggle">
+    <!--navbar-->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Renan Secco</div>
+            <label for="menu-toggle" class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#scroll1">Início</a></li>
+                <li><a href="#scroll2">Sobre mim</a></li>
+                <li><a href="#scroll3">Formação</a></li>
+                <li><a href="#scroll4">Projetos</a></li>
+                <li><a href="#scroll5">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Overlay para fechar o menu ao clicar fora -->
+    <label for="menu-toggle" class="overlay"></label>
+    <!--Inicio-->
+    <header id="scroll1">
+        <div class="bloco_inicial">
+            <div class="perfil">
+                <img src="minhaimagem.jpg" alt="Foto do rosto de Renan Ruy">
+            </div>
+            <h1 class="mensagem_inicial">
+                Olá! Me chamo Renan Ruy Secco de Oliveira.
+            </h1>
+        </div>
+    </header> 
+    <!--Conteudo principal do site-->
+    <main id="scroll2">
+        <section>
+            <h3>Sobre mim</h3>
+            <p class="texto_alinhado">
+                Olá! Me chamo Renan Ruy, estudante de Ciência da Computação e um entusiasta da tecnologia em busca da minha primeira oportunidade no universo do desenvolvimento. Minha meta é atuar com programação web e outras áreas da TI onde eu possa aplicar criatividade e lógica para construir soluções. <br>
+            </p>
+        </section>
+        <section>
+            <h3>Habilidades</h3>
+            <p class="texto_alinhado">
+                Embora minha jornada na tecnologia esteja no início, trago comigo experiências valiosas de outros ambientes de trabalho. Mesmo tendo atuado apenas em trabalhos informais, consegui desenvolver uma comunicação clara e eficiente, a habilidade de colaborar em equipe para atingir metas comuns e uma forte proatividade para antecipar e resolver problemas antes que eles aconteçam. Sou uma pessoa dedicada e esforçada, sempre pronta para aprender e aplicar novos conhecimentos. <br>
+            </p>
+        </section>
+        <section id="scroll3">
+            <h3>Formações</h3>
+            <p class="texto_alinhado">
+                Ciência da Computação pela FACI Wyden (cursando, início em 2025  previsão de conclusão em 2028); <br>Ensino Médio Completo pela Cooperativa Educacional Nossa Escola (concluído em 2021).
+            </p>
+        </section>
+        <section id="scroll4">
+            <h3>Projetos</h3>
+            <p class="texto_alinhado">
+                Abaixo, uma lista com todos os projetos que já fiz.
+            </p>
+            <label for="modal-toggle" class="modal-close">Lista de projetos</label>
+        </section>
+    </main>
+    <!--Modal-->
+    <input type="checkbox" id="modal-toggle">
+    <div class="modal-overlay">
+        <div class="modal-content">
+            <label for="modal-toggle" class="modal-close">✖</label>
+            <img src="cat-loading-hgb.gif" alt="Em desenvolvimento" class="modal-gif">
+            <h3 class="modal-title">Nenhum projeto concluido.<br>Volte mais tarde!</h3>
+            <p class="modal-text">
+                Não possuo projetos finalizados para mostrar, mas estou já estou trabalhando para que esse cenário mude.
+            </p>
+        </div>
+    </div>
+    
+    <!--contatos-->
+    <footer id="scroll5">
+        <h3>Contatos:</h3>
+        <a href="https://github.com/renanruyseccoo-cpu" target="_blank" rel="noopener noreferrer">
+            <img src="github_logo.png"></img>
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/renan-ruy-08b9a4386/" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin_logo.png"></img>
+            <p>Linkedin</p>
+        </a>
+        <a href="https://wa.me/qr/T7WTT5UD3HYJE1" target="_blank" rel="noopener noreferrer">
+            <img src="WhatsApp.svg.webp"></img>
+            <p>WhatsApp</p>
+        </a>
+        <a href="mailto:renanruyseccoo@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src="Gmail_Icon_(2013-2020).png" class="gmail-img"></img>
+            <p>Email</p>
+        </a>
+    </footer>
+</body>
+</html>
